@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: #0b1329;
+    color: #422db5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.profile-card {
+    width: 100%;
+    background-color: #5c2c89;
+    border: 1px solid #371c91;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 12px 30px rgba(11, 11, 11, 0.35);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* BAGIAN PROFIL */
+.card-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #334155;
+}
+
+.avatar-box {
+    width: 96px;
+    height: 96px;
+    background: #3f1181;
+    border: 2px solid #38bdf8;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 52px;
+    margin-bottom: 14px;
+}
+
+.student-name {
+    font-size: 24px;
+    color: #c194cd;
+    font-weight: 700;
+}
+
+.student-role {
+    color: #bc129d;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.student-school {
+    color: #94a3b8;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.btn-contact {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    background-color: #b574d8;
+    color: #961da1;
+    text-decoration: none;
+
+    padding: 12px 20px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* BAGIAN KONTEN */
+.card-content {
+    width: 100%;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section-heading {
+    font-size: 14px;
+    color: #f838cf;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.bio-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #bc81c4;
+}
+
+/* KEAHLIAN */
+.skill-matrix {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-badge {
+    background-color: #0f172a;
+    border: 1px solid #1e40af;
+    color: #ef7dfc;
+
+    padding: 6px 14px;
+    border-radius: 20px;
+
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+/* TAMPILAN LAPTOP / DESKTOP */
+@media screen and (min-width: 768px) {
+
+    .profile-card {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .card-aside {
+        width: 260px;
+        min-width: 260px;
+
+        padding-bottom: 0;
+        padding-right: 30px;
+
+        border-bottom: none;
+        border-right: 1px solid #334155;
+
+        justify-content: center;
+    }
+
+    .card-content {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+        justify-content: center;
+    }
+}
+
+/* LAYAR KECIL */
+@media screen and (max-width: 767px) {
+
+    .profile-card {
+        padding: 24px;
+    }
+
+    .student-name {
+        font-size: 22px;
+    }
+}
+

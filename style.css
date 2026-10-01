@@ -1,0 +1,128 @@
+/* ===== CSS Tombol Toggle ===== */
+.btn-tema {
+ background: transparent;
+ border: 1px solid #38bdf8;
+ color: #38bdf8;
+ padding: 6px 12px;
+ border-radius: 8px;
+ cursor: pointer;
+ margin-bottom: 20px;
+ transition: 0.3s;
+}
+.btn-tema:hover {
+ background: #38bdf8;
+ color: #0b1329;
+}
+/* ===== CSS Light Mode (State) ===== */
+/* Ketika body memiliki class .light-mode, timpa warna aslinya */
+body.light-mode {
+ background-color: #f8fafc;
+ color: #0f172a;
+}
+body.light-mode .profile-card {
+ background-color: #ffffff;
+ border-color: #cbd5e1;
+ box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+body.light-mode .student-name {
+ color: #0f172a;
+}
+body.light-mode .card-aside {
+ border-color: #cbd5e1;
+}
+/* ===== CSS Modal Popup ===== */
+.modal-overlay {
+ position: fixed; /* Agar selalu di atas layar */
+ top: 0; left: 0; width: 100%; height: 100%;
+ background-color: rgba(0, 0, 0, 0.7);
+ display: none; /* Sembunyikan dari layar */
+ justify-content: center;
+ align-items: center;
+ z-index: 1000;
+}
+/* Class aktif untuk menampilkan modal */
+.modal-overlay.show {
+ display: flex; /* Ubah ke flex agar nampil di tengah */
+}
+.modal-box {
+ background: #1e293b;
+ padding: 30px;
+ border-radius: 12px;
+ text-align: center;
+ width: 90%;
+ max-width: 400px;
+}
+.btn-tutup {
+ margin-top: 20px;
+ background: #ef4444;
+ color: white;
+ border: none;
+ padding: 8px 16px;
+ border-radius: 6px;
+ cursor: pointer;
+}
+/* ===== CSS Tombol Toggle ===== */
+.btn-tema {
+ background: transparent;
+ border: 1px solid #38bdf8;
+ color: #38bdf8;
+ padding: 6px 12px;
+ border-radius: 8px;
+ cursor: pointer;
+ margin-bottom: 20px;
+ transition: 0.3s;
+}
+.btn-tema:hover {
+ background: #38bdf8;
+ color: #0b1329;
+}
+/* ===== CSS Light Mode (State) ===== */
+/* Ketika body memiliki class .light-mode, timpa warna aslinya */
+body.light-mode {
+ background-color: #f8fafc;
+ color: #0f172a;
+}
+body.light-mode .profile-card {
+ background-color: #ffffff;
+ border-color: #cbd5e1;
+ box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+body.light-mode .student-name {
+ color: #0f172a;
+}
+body.light-mode .card-aside {
+ border-color: #cbd5e1;
+}
+/* ===== CSS Modal Popup ===== */
+.modal-overlay {
+ position: fixed; /* Agar selalu di atas layar */
+ top: 0; left: 0; width: 100%; height: 100%;
+ background-color: rgba(0, 0, 0, 0.7);
+ display: none; /* Sembunyikan dari layar */
+ justify-content: center;
+ align-items: center;
+ z-index: 1000;
+}
+/* Class aktif untuk menampilkan modal */
+.modal-overlay.show {
+ display: flex; /* Ubah ke flex agar nampil di tengah */
+}
+.modal-box {
+ background: #1e293b;
+ padding: 30px;
+Kelas Industri Junior Web Developer - SMK RPL 2026/2027 | Modul Minggu 03 - JavaScript, DOM, dan Event Halaman 4 dari 7
+ border-radius: 12px;
+ text-align: center;
+ width: 90%;
+ max-width: 400px;
+}
+.btn-tutup {
+ margin-top: 20px;
+ background: #ef4444;
+ color: white;
+ border: none;
+ padding: 8px 16px;
+ border-radius: 6px;
+ cursor: pointer;
+}
+
