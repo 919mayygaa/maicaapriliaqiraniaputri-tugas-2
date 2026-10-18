@@ -29,7 +29,7 @@ Project ini dibuat untuk melatih kemampuan saya dalam membuat website, memahami 
 
 - **GitHub:** https://github.com/919mayygaa/maicaaprilia-tugas-2.git(https://github.com)
 - **Website:**
-maicaaprilia-tugas-2-l3mf.vercel.app
+maicaaprilia-tugas-2-l3mf-git-main-919mayygaa.vercel.app
 
 
 ---
