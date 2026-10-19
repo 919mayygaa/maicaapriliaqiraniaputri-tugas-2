@@ -1,1 +1,1 @@
-https://vercel.com/919mayygaa/maicaapriliaqiraniaputri-tugas-2
+https://maicaapriliaqiraniaputri-tugas-2.vercel.app/
