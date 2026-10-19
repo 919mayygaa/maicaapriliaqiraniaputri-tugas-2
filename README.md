@@ -27,7 +27,7 @@ Project ini dibuat untuk melatih kemampuan saya dalam membuat website, memahami 
 
 ## Tautan
 
-- **GitHub:** [Masukkan tautan repository GitHub kamu](https://github.com)
+- **GitHub:** https://github.com/919mayygaa/maicaaprilia-tugas-2.git(https://github.com)
 - **Website:** [Masukkan tautan website Vercel kamu](https://vercel.com)
 
 ---
